@@ -65,7 +65,7 @@ document.getElementById('calcultate-btn').addEventListener('click',function(){
     
     // validation:
     if(isNaN(managerInput) || isNaN(coachInput) || managerInput < 0 || coachInput < 0 || Math.sign(managerInput) === -1 || Math.sign(coachInput) === -1 ){
-    alert('please enter the valid input');
+    alert('Please enter the valid input');
     return;
     }
     const total = playerExpense + managerInput + coachInput;
