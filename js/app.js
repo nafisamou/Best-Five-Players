@@ -34,14 +34,10 @@ function playerList (element){
     return;
     }
     
-    
-    
-    
 players.push(playersList);
 displayPlayer();
 
 }
-
 
 
 // step-1:
