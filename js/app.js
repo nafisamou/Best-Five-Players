@@ -29,7 +29,7 @@ function playerList (element){
     
     if(players.length >=5){
         
-    alert ('you can not add more than 5 players');
+    alert ('Sorry, you can not add more than 5 players');
 
     return;
     }
