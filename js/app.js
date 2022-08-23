@@ -41,7 +41,7 @@ displayPlayer();
 
 
 // step-1:
-document.getElementById('calcultate-btn').addEventListener('click',function(){
+    document.getElementById('calcultate-btn').addEventListener('click',function(){
     const playerInput = getInputFieldValueById('player-input');
     const playerExpense = getTextElementValueById('expense');
     
